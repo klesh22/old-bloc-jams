@@ -50,3 +50,11 @@ html {
     height: 90px;
     padding: 0 100px;
   }
+  
+  body {
+   font-family: 'Open Sans';
+   color: white;
+   min-height: 100%;
+   background: -webkit-radial-gradient(  #2b1339, #380c77);
+   background: radial-gradient(   #2b1339, #380c77);
+ }
