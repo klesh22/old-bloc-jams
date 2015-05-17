@@ -9,6 +9,19 @@ body {
 body.landing {
   background: #5b5579; }
 
+.hero-content {
+  background: #2f1d57;
+  padding: 100px; }
+
+.hero-content h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+  font-weight: 300; }
+
+.selling-points {
+  padding: 100px; }
+
+
 .player-header-nav {
   background-color: rgba(123, 70, 163, 0.9); }
 
@@ -25,11 +38,7 @@ body.landing {
   font-weight: 300; }
 
 .selling-points {
-<<<<<<< HEAD
-  padding: 100px; }
-=======
   padding: 100 px 0; }
->>>>>>> bootstrap-intro
 
 .selling-points .point {
   width: 32%;
@@ -45,6 +54,19 @@ body.landing {
 
 .selling-points .point p {
   font-size: 14px; }
+
+.nav-bar {
+  background: #2c1231;
+  height: 90px;
+  padding: 0 100px; }
+
+body {
+  font-family: 'Open Sans';
+  color: white;
+  min-height: 100%;
+  background: -webkit-radial-gradient(#2b1339, #380c77);
+  background: radial-gradient(#2b1339, #380c77);
+  text-align: left; }
 
 .album-header-container {
   margin-top: 55px;
@@ -75,13 +97,6 @@ body.landing {
 .table.album-song-listing td {
   padding: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.4); }
-
-body {
-  font-family: 'Open Sans';
-  color: white;
-  min-height: 100%;
-  background: -webkit-radial-gradient(#2b1339, #380c77);
-  background: radial-gradient(#2b1339, #380c77); }
 
 
 /*# sourceMappingURL=app.css.map*/
