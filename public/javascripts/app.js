@@ -92,6 +92,7 @@
 })();
 require.register("scripts/app", function(exports, require, module) {
 require("./landing");
+require('./collection');
 });
 
 ;require.register("scripts/collection", function(exports, require, module) {
@@ -107,7 +108,7 @@ var buildAlbumThumbnail = function() {
         +   '      <br/>' 
         +   '      X songs' 
         +   '      <br/>'
-        +   '       X:XX time left'
+        +   '       X:XX Total Length'
         +   '       <br />'
         +   '    </p>' 
         +   '  </div>' 
