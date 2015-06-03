@@ -21,7 +21,6 @@ body.landing {
 .selling-points {
   padding: 100px; }
 
-
 .player-header-nav {
   background-color: rgba(123, 70, 163, 0.9); }
 
@@ -54,11 +53,6 @@ body.landing {
 
 .selling-points .point p {
   font-size: 14px; }
-
-.nav-bar {
-  background: #2c1231;
-  height: 90px;
-  padding: 0 100px; }
 
 body {
   font-family: 'Open Sans';
