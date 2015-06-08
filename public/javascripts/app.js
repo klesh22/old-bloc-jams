@@ -92,6 +92,11 @@
 })();
 require.register("scripts/album", function(exports, require, module) {
 
+if (document.URL.match(/\/album.html/)) {
+    $(document).ready(function() {
+    changeAlbumView(albumPicasso);
+    });
+}
 
 
 
@@ -144,18 +149,17 @@ var albumMarconi = {
     }]
 };
 
-
 var createSongRow = function(songNumber, songName, songLength) {
    var template =
-       '<tr>';
-      '  <td class="col-md-1">' + songNumber + '</td>';
-      '  <td class="col-md-9">' + songName + '</td>';
-     '  <td class="col-md-2">' + songLength + '</td>';
-      '</tr>';
+       '<tr>'
+     + '  <td class="col-md-1">' + songNumber + '</td>'
+     + '  <td class="col-md-9">' + songName + '</td>'
+     + '  <td class="col-md-2">' + songLength + '</td>'
+     + '</tr>'
+     ;
  
    return $(template);
  };
-
 
 
 var changeAlbumView = function(album) {
@@ -187,11 +191,6 @@ var changeAlbumView = function(album) {
 
  };
 
-if (document.URL.match(/\/album.html/)) {
-    $(document).ready(function() {
-    changeAlbumView(albumPicasso);
-    });
-}
 
 });
 
